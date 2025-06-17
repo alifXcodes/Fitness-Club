@@ -3,6 +3,7 @@
   font-weight: 500;
   font-style: normal;
   margin: 0;
+  box-sizing: border-box;
 }
 .top_bar{
     display: grid;
@@ -11,6 +12,7 @@
     background-color: #dcdde1;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 .logo{
     display: flex;  
@@ -105,12 +107,58 @@
 }
 
 /* body section */
-.div_1{
-    background-color: #bbdc5873;
+/* body 1 */
+.body_1 {
+  position: relative;
+  height: 700px;
+  width: 100%;            
+  background-color: transparent;
+  overflow: hidden;
 }
-.first_photo{
-   margin-left: 9%;
+
+.img {
+  position: relative;
+  margin: 4%;
+  padding: 5%;
 }
-.perahraph1{
-    margin-bottom: 500px;
+
+.img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.text {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-size: 30px;
+  color: white;
+}
+.the{
+    font-size: 100px;
+    
+}
+.border1 {
+  background-color: #a4b83d3b;
+  margin-top: 10%;
+  padding: 20px;
+  width: 300px;
+  height: auto;
+  border-radius: 0 10px;
+  border-left: 4px solid #a4b83d;
+}
+/* body 2 */
+.body_2{
+    background-color: #a4b83d;
+    padding: 5px;
+    height: 500px;
+    width: 100%;
+}
+.our_services{
+    background-color: #525251;
+    margin: 10%;
+    height: 300px;
+    width: 80%;
 }
