@@ -1,0 +1,116 @@
+*{
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+}
+.top_bar{
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    height: 70px;
+    background-color: #dcdde1;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    display: flex;  
+}
+.first_img{
+    margin-left: 70px;
+    height: 50px;
+    width: 55px;
+}
+.titel1{
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* navigation bar*/
+#main_manu ul{
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#main_manu li{
+    margin: 0 20px;
+    margin-top: 2%;
+    position: relative;
+}
+#main_manu li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    padding: 25px 20px;
+    
+}
+#main_manu li a:hover{
+    background-color: grey;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 22px 30px;
+    transition-duration: .5s;
+    border-bottom: 5px solid #a4b83d;
+}
+
+/* sub manu */
+#main_manu ul ul{
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    padding: 10px 0;
+    z-index: 999;
+}
+#main_manu ul ul li{
+    margin: 0;
+    padding: 0;
+}
+#main_manu ul ul li a{
+    display: block;
+    padding: 10px 20px;
+}
+#main_manu ul ul::after{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#main_manu ul li:hover ul{
+    display: inline-block;
+}
+
+/* log in button */
+.log_in{
+    padding: 10px 25px;
+    background-color: #a4b83d;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+.log_in:hover{
+    background-color: #4d9456;
+    padding: 10px 30px;
+    transition-duration: .5s;
+    color: #ffffff;
+}
+
+/* body section */
+.div_1{
+    background-color: #bbdc5873;
+}
+.first_photo{
+   margin-left: 9%;
+}
+.perahraph1{
+    margin-bottom: 500px;
+}
