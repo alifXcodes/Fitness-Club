@@ -8,25 +8,19 @@
 .top_bar{
     display: grid;
     grid-template-columns: 2fr 4fr 1fr;
-    height: 70px;
+    height: 80px;
     background-color: #dcdde1;
     position: sticky;
     top: 0;
     z-index: 999;
 }
-.logo{
-    display: flex;  
-}
 .first_img{
     margin-left: 70px;
-    height: 50px;
-    width: 55px;
+    margin-top: -40px;
+    height: 200px;
+    width: 200px;
 }
-.titel1{
-    margin-top: 15px;
-    font-weight: bold;
-    cursor: pointer;
-}
+
 
 /* navigation bar*/
 #main_manu ul{
@@ -52,7 +46,7 @@
     font-weight: bold;
     color: #ffffff;
     font-size: 28px;
-    padding: 22px 30px;
+    padding: 32px 30px;
     transition-duration: .5s;
     border-bottom: 5px solid #a4b83d;
 }
@@ -100,7 +94,8 @@
     border-radius: 20px;
 }
 .log_in:hover{
-    border: 3px solid #061222;
+    border: 3px solid #a4b83d;
+    background-color: #d2cc43;
     padding: 10px 30px;
     transition-duration: .5s;
 }
@@ -118,7 +113,7 @@
 .img {
   position: relative;
   margin: 4%;
-  margin-top: -40px;
+  margin-top: 30px;
   padding: 5%;
 }
 
@@ -191,14 +186,14 @@
 }
 .img2{
     position: relative;
-  margin-left: 62%;
+  margin-left: 60%;
   margin-top: -545px;
   height: 300px;
   width: 500px;
   border: 10px solid #d2cc43;
   background-color: #d2cc43;
   border-radius: 10px;
-  transform: rotate(60deg);
+  
 }
 .border_div{
   position: relative;
@@ -218,7 +213,42 @@
   width: 500px;
   border-radius: 10px;
 }
-.img2:hover{
-  transform: rotate(360deg);
-  transition-duration: 5s;
+
+/* footer section */
+footer{
+    margin-top: 20%;
+    height: 200px;
+    width: 100%;
+    background-color: #1e2432;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.logo_footer img{
+    margin: 15%;
+    height: 100px;
+    width: 100px;
+}
+.company{
+margin: 15%;
+color: floralwhite;
+}
+.info{
+margin: 15%;
+color: floralwhite
+}
+.contract{
+margin: 15%;
+color: floralwhite
+}
+.social_media{
+    margin-top: 3%;
+    
+}
+.social_media a{
+    text-decoration: none;
+    color: floralwhite;
+    margin-right: 5px;
+}
+.social_media a:hover{
+    color: #a4b83d;
 }
