@@ -220,5 +220,5 @@
 }
 .img2:hover{
   transform: rotate(360deg);
-  transition-duration: 10s;
+  transition-duration: 5s;
 }
