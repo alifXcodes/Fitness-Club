@@ -84,14 +84,20 @@
 }
 
 /* log in button */
+.login{
+    margin-top: 25px;
+   
+}
 .log_in{
+     text-decoration: none;
+     color: #1e2432;
     padding: 10px 25px;
     background-color: #a4b83d;
     margin: 10px;
     font-size: 24px;
     font-weight: bold;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .log_in:hover{
     border: 3px solid #a4b83d;
@@ -156,6 +162,7 @@
     font-size: 120px;
     padding: 10%;
     margin-top: -20px;
+    color: #ffffff;
     opacity: .5;
 }
 .our_services{
