@@ -42,10 +42,6 @@ form input{
     border-radius: 0 10px;
     border-color: #091a28;
 }
-fieldset{
-    border-radius: 0 10px;
-    border: 2px solid #ced897;
-}
 .login_btn{
    display: block;
    width: 100%;
@@ -58,4 +54,18 @@ fieldset{
 .login_btn:hover{
     font-size: 24px;
     background-color: #d3c92d;
+    transition-duration: .5s;
+}
+.border1 h3{
+  margin-top: 10px;
+  margin-left: 35%;
+}
+.border1 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.border1 a:hover{
+    font-size: 28px;
+    color: #a4b83d;
+    transition-duration: .5s;
 }
