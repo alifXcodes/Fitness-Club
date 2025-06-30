@@ -1,0 +1,148 @@
+/* --- Small Devices (<= 480px) --- */
+@media (max-width: 480px) {
+  .top_bar {
+    grid-template-columns: 1fr;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+  }
+
+  #main_manu ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #main_manu li {
+    margin: 10px 0;
+  }
+
+  .login {
+    margin: 10px 0;
+  }
+
+  .body_1, .hero, .body_2 {
+    height: auto;
+    padding: 10px;
+  }
+
+  .the {
+    font-size: 40px;
+  }
+
+  .border1 {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  .our_services {
+    padding: 5%;
+    height: auto;
+    width: 90%;
+    margin: auto;
+  }
+
+  .img2, .border_div {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .img2, .border_div img {
+    height: 200px;
+  }
+
+  .hero h1 {
+    font-size: 1.8em;
+  }
+
+  .products h2 {
+    font-size: 1.5em;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-card img {
+    width: 100%;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    height: auto;
+    text-align: center;
+  }
+
+  .logo_footer img {
+    margin: 10px auto;
+  }
+
+  .company, .info, .contract {
+    margin: 10px auto;
+  }
+
+  .social_media {
+    margin-top: 10px;
+  }
+}
+
+/* --- Medium Devices (481px to 767px) --- */
+@media (max-width: 767px) and (min-width: 481px) {
+  .top_bar {
+    grid-template-columns: 1fr;
+    text-align: center;
+    height: auto;
+  }
+
+  #main_manu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login {
+    margin: 15px 0;
+  }
+
+  .body_1, .hero, .body_2 {
+    height: auto;
+  }
+
+  .the {
+    font-size: 60px;
+  }
+
+  .border1 {
+    width: 80%;
+    margin: auto;
+  }
+
+  .our_services {
+    width: 90%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .img2, .border_div {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .hero h1 {
+    font-size: 2.2em;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+  }
+
+  .logo_footer, .company, .info, .contract {
+    margin: 10px;
+  }
+}
