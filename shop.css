@@ -1,0 +1,83 @@
+
+.hero {
+  background: url('https://www.matt-thomas-photography.co.uk/wp-content/uploads/2021/01/fitness-shoot-2-1-scaled.jpg.webp') center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero p {
+  margin: 10px 0 20px;
+  font-size: 1.2em;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: #a4b83d;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.btn:hover{
+    padding: 15px 30px;
+    font-size: 20px;
+    transition-duration: .5s;
+}
+.products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px;
+}
+
+.product-card p {
+  font-weight: bold;
+}
+
+.product-card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
